@@ -76,6 +76,7 @@ int main(int argc, const char* argv[])
 	double image_XthPercentile = getXPercentile(gauss_wo_normal , percentile);
 
     double max_val = 1;
+	int actiontest = 0;
 
     //segmentation using cv::threshold using the 90th Percentile as thresh
     cv::Mat thresh;
